@@ -1,0 +1,201 @@
+body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #000000;
+        color: white;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 60px;
+        background-color: #000000;
+        z-index: 2;
+        position: relative;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+    }
+
+    nav a {
+        margin: 0 15px;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .botones {
+        display: flex;
+        gap: 10px;
+    }
+
+    .botones button {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .boton1{
+        color: rgb(5, 80, 193);
+        background-color: #171f32;
+    }
+    .boton2{
+        color: white;
+        background-color: #303b56;
+    }
+    .contenido{
+        text-align: center;
+        background-image: url('https://definicion.de/wp-content/uploads/2009/03/ingenieria-de-sistemas.jpg');
+        padding: 100px 20px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+    }
+    .contenido::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(15, 23, 42, 0.8);
+        z-index: 1;
+    }
+    h1{
+        z-index: 2;
+        position: relative;
+        font-size: 60px;
+    }
+    h4{
+        z-index: 2;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #929090;
+    }
+    .b{
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .buscado {
+        display: flex;
+        align-items: center;
+        background-color: #2a3142;
+        border-radius: 8px;
+        padding: 10px 15px;
+        width: 600px;
+    }
+
+    .icono {
+        color: #888;
+        font-size: 20px;
+        margin-right: 10px;
+        z-index: 2;
+        position: relative;
+        
+    }
+
+    .input {
+        flex: 1;
+        border: none;
+        background: transparent;
+        color: #ccc;
+        font-size: 16px;
+        outline: none;
+        z-index: 2;
+        position: relative;
+    }
+
+    .boton {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        z-index: 2;
+        position: relative;
+    }
+
+    .search-button:hover {
+        background-color: #0056b3;
+    }
+    footer{
+        z-index: 2;
+        position: relative;
+        text-align: center;
+        background-color: #000000;
+        margin: none;
+        padding: 100px 60px;
+        height: 500px;
+    }
+    p{
+        font-size: 30px;
+    }
+        .why-devjobs {
+        text-align: center;
+        padding: 80px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .why-devjobs h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    .subtitle {
+        color: #b5b5b5;
+        font-size: 1.1rem;
+        margin-bottom: 60px;
+        line-height: 1.6;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .card {
+        background-color: #162332;
+        border-radius: 12px;
+        padding: 40px 30px;
+        width: 340px;
+        text-align: center;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-8px);
+        background-color: #1f3144;
+    }
+
+    .icon {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #1976d2;
+    }
+
+    .card h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 12px;
+        color: white;
+    }
+
+    .card p {
+        color: #b5b5b5;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
